@@ -6,8 +6,38 @@
 	<dict>
 		<key>Parki.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Parki_WidgetExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>18D98D2F288470F800A8B8DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18D98D3F288470FA00A8B8DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18D98D49288470FA00A8B8DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>18D98E332884D95C00A8B8DD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

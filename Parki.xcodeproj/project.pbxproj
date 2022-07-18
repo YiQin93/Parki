@@ -14,6 +14,68 @@
 		18D98D45288470FA00A8B8DD /* ParkiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D44288470FA00A8B8DD /* ParkiTests.swift */; };
 		18D98D4F288470FA00A8B8DD /* ParkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D4E288470FA00A8B8DD /* ParkiUITests.swift */; };
 		18D98D51288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D50288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift */; };
+		18D98DB62884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
+		18D98DB72884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
+		18D98DB82884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
+		18D98DCD2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
+		18D98DCE2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
+		18D98DCF2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
+		18D98DD02884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */; };
+		18D98DD12884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */; };
+		18D98DD22884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */; };
+		18D98DD32884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBD2884BB3600A8B8DD /* Montserrat-BoldItalic.ttf */; };
+		18D98DD42884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBD2884BB3600A8B8DD /* Montserrat-BoldItalic.ttf */; };
+		18D98DD52884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBD2884BB3600A8B8DD /* Montserrat-BoldItalic.ttf */; };
+		18D98DD62884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBE2884BB3600A8B8DD /* Montserrat-Light.ttf */; };
+		18D98DD72884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBE2884BB3600A8B8DD /* Montserrat-Light.ttf */; };
+		18D98DD82884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBE2884BB3600A8B8DD /* Montserrat-Light.ttf */; };
+		18D98DD92884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBF2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf */; };
+		18D98DDA2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBF2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf */; };
+		18D98DDB2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBF2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf */; };
+		18D98DDC2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC02884BB3600A8B8DD /* Montserrat-ExtraLight.ttf */; };
+		18D98DDD2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC02884BB3600A8B8DD /* Montserrat-ExtraLight.ttf */; };
+		18D98DDE2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC02884BB3600A8B8DD /* Montserrat-ExtraLight.ttf */; };
+		18D98DDF2884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC12884BB3600A8B8DD /* Montserrat-Thin.ttf */; };
+		18D98DE02884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC12884BB3600A8B8DD /* Montserrat-Thin.ttf */; };
+		18D98DE12884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC12884BB3600A8B8DD /* Montserrat-Thin.ttf */; };
+		18D98DE22884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC22884BB3600A8B8DD /* Montserrat-Bold.ttf */; };
+		18D98DE32884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC22884BB3600A8B8DD /* Montserrat-Bold.ttf */; };
+		18D98DE42884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC22884BB3600A8B8DD /* Montserrat-Bold.ttf */; };
+		18D98DE52884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC32884BB3600A8B8DD /* Montserrat-MediumItalic.ttf */; };
+		18D98DE62884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC32884BB3600A8B8DD /* Montserrat-MediumItalic.ttf */; };
+		18D98DE72884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC32884BB3600A8B8DD /* Montserrat-MediumItalic.ttf */; };
+		18D98DE82884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC42884BB3600A8B8DD /* Montserrat-BlackItalic.ttf */; };
+		18D98DE92884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC42884BB3600A8B8DD /* Montserrat-BlackItalic.ttf */; };
+		18D98DEA2884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC42884BB3600A8B8DD /* Montserrat-BlackItalic.ttf */; };
+		18D98DEB2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */; };
+		18D98DEC2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */; };
+		18D98DED2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */; };
+		18D98DEE2884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC62884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf */; };
+		18D98DEF2884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC62884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf */; };
+		18D98DF02884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC62884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf */; };
+		18D98DF12884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC72884BB3600A8B8DD /* Montserrat-ExtraBold.ttf */; };
+		18D98DF22884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC72884BB3600A8B8DD /* Montserrat-ExtraBold.ttf */; };
+		18D98DF32884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC72884BB3600A8B8DD /* Montserrat-ExtraBold.ttf */; };
+		18D98DF42884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC82884BB3600A8B8DD /* Montserrat-Black.ttf */; };
+		18D98DF52884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC82884BB3600A8B8DD /* Montserrat-Black.ttf */; };
+		18D98DF62884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC82884BB3600A8B8DD /* Montserrat-Black.ttf */; };
+		18D98DF72884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */; };
+		18D98DF82884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */; };
+		18D98DF92884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */; };
+		18D98DFA2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCA2884BB3600A8B8DD /* Montserrat-Italic.ttf */; };
+		18D98DFB2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCA2884BB3600A8B8DD /* Montserrat-Italic.ttf */; };
+		18D98DFC2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCA2884BB3600A8B8DD /* Montserrat-Italic.ttf */; };
+		18D98DFD2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCB2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf */; };
+		18D98DFE2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCB2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf */; };
+		18D98DFF2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCB2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf */; };
+		18D98E002884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCC2884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf */; };
+		18D98E012884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCC2884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf */; };
+		18D98E022884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DCC2884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf */; };
+		18D98E492884DA0300A8B8DD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D98E092884BC0600A8B8DD /* WidgetKit.framework */; };
+		18D98E4A2884DA0300A8B8DD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D98E0B2884BC0600A8B8DD /* SwiftUI.framework */; };
+		18D98E4D2884DA0300A8B8DD /* Parki_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98E4C2884DA0300A8B8DD /* Parki_Widget.swift */; };
+		18D98E4F2884DA0600A8B8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D98E4E2884DA0600A8B8DD /* Assets.xcassets */; };
+		18D98E532884DA0600A8B8DD /* Parki_WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 18D98E482884DA0300A8B8DD /* Parki_WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +93,28 @@
 			remoteGlobalIDString = 18D98D2F288470F800A8B8DD;
 			remoteInfo = Parki;
 		};
+		18D98E512884DA0600A8B8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D98D28288470F800A8B8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D98E472884DA0300A8B8DD;
+			remoteInfo = Parki_WidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18D98E1C2884BC0900A8B8DD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				18D98E532884DA0600A8B8DD /* Parki_WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		18D98D30288470F800A8B8DD /* Parki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parki.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +127,33 @@
 		18D98D4A288470FA00A8B8DD /* ParkiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D98D4E288470FA00A8B8DD /* ParkiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkiUITests.swift; sourceTree = "<group>"; };
 		18D98D50288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18D98D5F288489A700A8B8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		18D98DB52884B13800A8B8DD /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		18D98DB92884B91800A8B8DD /* Parki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parki.entitlements; sourceTree = "<group>"; };
+		18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		18D98DBD2884BB3600A8B8DD /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18D98DBE2884BB3600A8B8DD /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		18D98DBF2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		18D98DC02884BB3600A8B8DD /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		18D98DC12884BB3600A8B8DD /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		18D98DC22884BB3600A8B8DD /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		18D98DC32884BB3600A8B8DD /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		18D98DC42884BB3600A8B8DD /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		18D98DC62884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		18D98DC72884BB3600A8B8DD /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		18D98DC82884BB3600A8B8DD /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		18D98DCA2884BB3600A8B8DD /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		18D98DCB2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		18D98DCC2884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		18D98E092884BC0600A8B8DD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		18D98E0B2884BC0600A8B8DD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		18D98E482884DA0300A8B8DD /* Parki_WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Parki_WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D98E4C2884DA0300A8B8DD /* Parki_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parki_Widget.swift; sourceTree = "<group>"; };
+		18D98E4E2884DA0600A8B8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D98E502884DA0600A8B8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +178,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18D98E452884DA0300A8B8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D98E4A2884DA0300A8B8DD /* SwiftUI.framework in Frameworks */,
+				18D98E492884DA0300A8B8DD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,6 +196,8 @@
 				18D98D32288470F800A8B8DD /* Parki */,
 				18D98D43288470FA00A8B8DD /* ParkiTests */,
 				18D98D4D288470FA00A8B8DD /* ParkiUITests */,
+				18D98E4B2884DA0300A8B8DD /* Parki_Widget */,
+				18D98E082884BC0600A8B8DD /* Frameworks */,
 				18D98D31288470F800A8B8DD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +208,7 @@
 				18D98D30288470F800A8B8DD /* Parki.app */,
 				18D98D40288470FA00A8B8DD /* ParkiTests.xctest */,
 				18D98D4A288470FA00A8B8DD /* ParkiUITests.xctest */,
+				18D98E482884DA0300A8B8DD /* Parki_WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +216,12 @@
 		18D98D32288470F800A8B8DD /* Parki */ = {
 			isa = PBXGroup;
 			children = (
+				18D98DBA2884BB3600A8B8DD /* Fonts */,
+				18D98DB92884B91800A8B8DD /* Parki.entitlements */,
+				18D98D5F288489A700A8B8DD /* Info.plist */,
 				18D98D33288470F800A8B8DD /* ParkiApp.swift */,
 				18D98D35288470F800A8B8DD /* ContentView.swift */,
+				18D98DB52884B13800A8B8DD /* Styling.swift */,
 				18D98D37288470FA00A8B8DD /* Assets.xcassets */,
 				18D98D39288470FA00A8B8DD /* Preview Content */,
 			);
@@ -127,6 +253,50 @@
 			path = ParkiUITests;
 			sourceTree = "<group>";
 		};
+		18D98DBA2884BB3600A8B8DD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */,
+				18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */,
+				18D98DBD2884BB3600A8B8DD /* Montserrat-BoldItalic.ttf */,
+				18D98DBE2884BB3600A8B8DD /* Montserrat-Light.ttf */,
+				18D98DBF2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf */,
+				18D98DC02884BB3600A8B8DD /* Montserrat-ExtraLight.ttf */,
+				18D98DC12884BB3600A8B8DD /* Montserrat-Thin.ttf */,
+				18D98DC22884BB3600A8B8DD /* Montserrat-Bold.ttf */,
+				18D98DC32884BB3600A8B8DD /* Montserrat-MediumItalic.ttf */,
+				18D98DC42884BB3600A8B8DD /* Montserrat-BlackItalic.ttf */,
+				18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */,
+				18D98DC62884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf */,
+				18D98DC72884BB3600A8B8DD /* Montserrat-ExtraBold.ttf */,
+				18D98DC82884BB3600A8B8DD /* Montserrat-Black.ttf */,
+				18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */,
+				18D98DCA2884BB3600A8B8DD /* Montserrat-Italic.ttf */,
+				18D98DCB2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf */,
+				18D98DCC2884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		18D98E082884BC0600A8B8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D98E092884BC0600A8B8DD /* WidgetKit.framework */,
+				18D98E0B2884BC0600A8B8DD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D98E4B2884DA0300A8B8DD /* Parki_Widget */ = {
+			isa = PBXGroup;
+			children = (
+				18D98E4C2884DA0300A8B8DD /* Parki_Widget.swift */,
+				18D98E4E2884DA0600A8B8DD /* Assets.xcassets */,
+				18D98E502884DA0600A8B8DD /* Info.plist */,
+			);
+			path = Parki_Widget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,10 +307,12 @@
 				18D98D2C288470F800A8B8DD /* Sources */,
 				18D98D2D288470F800A8B8DD /* Frameworks */,
 				18D98D2E288470F800A8B8DD /* Resources */,
+				18D98E1C2884BC0900A8B8DD /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				18D98E522884DA0600A8B8DD /* PBXTargetDependency */,
 			);
 			name = Parki;
 			productName = Parki;
@@ -183,6 +355,23 @@
 			productReference = 18D98D4A288470FA00A8B8DD /* ParkiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		18D98E472884DA0300A8B8DD /* Parki_WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D98E542884DA0600A8B8DD /* Build configuration list for PBXNativeTarget "Parki_WidgetExtension" */;
+			buildPhases = (
+				18D98E442884DA0300A8B8DD /* Sources */,
+				18D98E452884DA0300A8B8DD /* Frameworks */,
+				18D98E462884DA0300A8B8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parki_WidgetExtension;
+			productName = Parki_WidgetExtension;
+			productReference = 18D98E482884DA0300A8B8DD /* Parki_WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +393,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 18D98D2F288470F800A8B8DD;
 					};
+					18D98E472884DA0300A8B8DD = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 				};
 			};
 			buildConfigurationList = 18D98D2B288470F800A8B8DD /* Build configuration list for PBXProject "Parki" */;
@@ -222,6 +414,7 @@
 				18D98D2F288470F800A8B8DD /* Parki */,
 				18D98D3F288470FA00A8B8DD /* ParkiTests */,
 				18D98D49288470FA00A8B8DD /* ParkiUITests */,
+				18D98E472884DA0300A8B8DD /* Parki_WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -231,8 +424,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DFD2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				18D98DE52884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */,
+				18D98DE22884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */,
+				18D98DF72884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */,
+				18D98DEB2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */,
+				18D98DD62884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */,
+				18D98DDF2884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */,
+				18D98DD92884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */,
 				18D98D3B288470FA00A8B8DD /* Preview Assets.xcassets in Resources */,
 				18D98D38288470FA00A8B8DD /* Assets.xcassets in Resources */,
+				18D98DD02884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */,
+				18D98DF42884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */,
+				18D98DDC2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */,
+				18D98DF12884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */,
+				18D98DE82884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */,
+				18D98DD32884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */,
+				18D98DFA2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */,
+				18D98E002884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				18D98DCD2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */,
+				18D98DEE2884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +451,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DD72884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */,
+				18D98DF52884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */,
+				18D98DEC2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */,
+				18D98DFB2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */,
+				18D98DF82884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */,
+				18D98DDD2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */,
+				18D98DD42884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */,
+				18D98DE92884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */,
+				18D98DEF2884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				18D98E012884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				18D98DD12884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */,
+				18D98DE62884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */,
+				18D98DF22884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */,
+				18D98DE32884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */,
+				18D98DCE2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */,
+				18D98DDA2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */,
+				18D98DE02884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */,
+				18D98DFE2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +476,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DD82884BB3600A8B8DD /* Montserrat-Light.ttf in Resources */,
+				18D98DF62884BB3600A8B8DD /* Montserrat-Black.ttf in Resources */,
+				18D98DED2884BB3600A8B8DD /* Montserrat-SemiBold.ttf in Resources */,
+				18D98DFC2884BB3600A8B8DD /* Montserrat-Italic.ttf in Resources */,
+				18D98DF92884BB3600A8B8DD /* Montserrat-Regular.ttf in Resources */,
+				18D98DDE2884BB3600A8B8DD /* Montserrat-ExtraLight.ttf in Resources */,
+				18D98DD52884BB3600A8B8DD /* Montserrat-BoldItalic.ttf in Resources */,
+				18D98DEA2884BB3600A8B8DD /* Montserrat-BlackItalic.ttf in Resources */,
+				18D98DF02884BB3600A8B8DD /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				18D98E022884BB3600A8B8DD /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				18D98DD22884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */,
+				18D98DE72884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */,
+				18D98DF32884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */,
+				18D98DE42884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */,
+				18D98DCF2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */,
+				18D98DDB2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */,
+				18D98DE12884BB3600A8B8DD /* Montserrat-Thin.ttf in Resources */,
+				18D98DFF2884BB3600A8B8DD /* Montserrat-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D98E462884DA0300A8B8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D98E4F2884DA0600A8B8DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DB62884B13800A8B8DD /* Styling.swift in Sources */,
 				18D98D36288470F800A8B8DD /* ContentView.swift in Sources */,
 				18D98D34288470F800A8B8DD /* ParkiApp.swift in Sources */,
 			);
@@ -266,6 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DB72884B13800A8B8DD /* Styling.swift in Sources */,
 				18D98D45288470FA00A8B8DD /* ParkiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +531,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D98DB82884B13800A8B8DD /* Styling.swift in Sources */,
 				18D98D51288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift in Sources */,
 				18D98D4F288470FA00A8B8DD /* ParkiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D98E442884DA0300A8B8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D98E4D2884DA0300A8B8DD /* Parki_Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +557,11 @@
 			isa = PBXTargetDependency;
 			target = 18D98D2F288470F800A8B8DD /* Parki */;
 			targetProxy = 18D98D4B288470FA00A8B8DD /* PBXContainerItemProxy */;
+		};
+		18D98E522884DA0600A8B8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D98E472884DA0300A8B8DD /* Parki_WidgetExtension */;
+			targetProxy = 18D98E512884DA0600A8B8DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,14 +685,18 @@
 		18D98D55288470FA00A8B8DD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Parki/Parki.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parki/Preview Content\"";
 				DEVELOPMENT_TEAM = 333Y7J6932;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parki/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -443,14 +718,18 @@
 		18D98D56288470FA00A8B8DD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Parki/Parki.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Parki/Preview Content\"";
 				DEVELOPMENT_TEAM = 333Y7J6932;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parki/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -545,6 +824,60 @@
 			};
 			name = Release;
 		};
+		18D98E552884DA0600A8B8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 333Y7J6932;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parki_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Parki_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parki.Parki.Parki-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D98E562884DA0600A8B8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 333Y7J6932;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parki_Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Parki_Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Parki.Parki.Parki-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +913,15 @@
 			buildConfigurations = (
 				18D98D5B288470FA00A8B8DD /* Debug */,
 				18D98D5C288470FA00A8B8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D98E542884DA0600A8B8DD /* Build configuration list for PBXNativeTarget "Parki_WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D98E552884DA0600A8B8DD /* Debug */,
+				18D98E562884DA0600A8B8DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
