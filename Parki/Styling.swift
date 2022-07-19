@@ -7,6 +7,63 @@
 
 import SwiftUI
 
+
+// styling for header
+struct Header: View {
+    let text: String
+    
+    var body: some View {
+        Text("\(text)")
+            .foregroundColor(.headerColor)
+            .font(.custom(Font.semiBold, size: 20))
+    }
+}
+
+// styling for main btn
+struct MainBtn: View {
+    
+    let label: String
+    
+    var body: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 10)
+                .foregroundColor(.primaryColor)
+                .frame(width: 0.825 * UIScreen.screenWidth, height: 0.059 * UIScreen.screenHeight)
+            Text("\(label)")
+                .foregroundColor(.primaryTextColor)
+                .font(.custom(Font.semiBold, size: 20))
+        }
+    }
+}
+
+
+// view for icon
+struct Icon: View {
+    var body: some View {
+        HStack {
+            Image("Icon")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 0.094 * UIScreen.screenWidth)
+                .padding(.trailing, 0.084 * UIScreen.screenWidth)
+        }.frame(width: UIScreen.screenWidth, alignment: .trailing)
+    }
+}
+
+// for navigation
+struct HiddenNavigationBar: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+        .navigationBarTitle("", displayMode: .inline)
+        .navigationBarHidden(true)
+    }
+}
+extension View {
+    func hiddenNavigationBarStyle() -> some View {
+        modifier( HiddenNavigationBar())
+    }
+}
+
 // for easy access to colors
 extension Color {
     static let backgroundColor = Color("BackgroundColor")

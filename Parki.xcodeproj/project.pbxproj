@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C4261B2885AD18007B1D8A /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
+		18C426252885AD32007B1D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D37288470FA00A8B8DD /* Assets.xcassets */; };
+		18C426262885AD33007B1D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D37288470FA00A8B8DD /* Assets.xcassets */; };
+		18C426272885AD34007B1D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D37288470FA00A8B8DD /* Assets.xcassets */; };
+		18C4262A2885B3E5007B1D8A /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC52884BB3600A8B8DD /* Montserrat-SemiBold.ttf */; };
+		18C4262B2885B41E007B1D8A /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DC92884BB3600A8B8DD /* Montserrat-Regular.ttf */; };
+		18C4262C2885B436007B1D8A /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBC2884BB3600A8B8DD /* Montserrat-Medium.ttf */; };
+		18C4262F28862AEA007B1D8A /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4262E28862AEA007B1D8A /* DisplayView.swift */; };
+		18C4263128862CD1007B1D8A /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4263028862CD1007B1D8A /* WidgetView.swift */; };
+		18C4263228862D3C007B1D8A /* WidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4263028862CD1007B1D8A /* WidgetView.swift */; };
+		18C42634288637BF007B1D8A /* TimeElapsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C42633288637BF007B1D8A /* TimeElapsedView.swift */; };
+		18C4263528863F57007B1D8A /* TimeElapsedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C42633288637BF007B1D8A /* TimeElapsedView.swift */; };
+		18C42637288645F7007B1D8A /* UpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C42636288645F7007B1D8A /* UpdateView.swift */; };
 		18D98D34288470F800A8B8DD /* ParkiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D33288470F800A8B8DD /* ParkiApp.swift */; };
 		18D98D36288470F800A8B8DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D35288470F800A8B8DD /* ContentView.swift */; };
 		18D98D38288470FA00A8B8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D98D37288470FA00A8B8DD /* Assets.xcassets */; };
@@ -15,8 +28,6 @@
 		18D98D4F288470FA00A8B8DD /* ParkiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D4E288470FA00A8B8DD /* ParkiUITests.swift */; };
 		18D98D51288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98D50288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift */; };
 		18D98DB62884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
-		18D98DB72884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
-		18D98DB82884B13800A8B8DD /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D98DB52884B13800A8B8DD /* Styling.swift */; };
 		18D98DCD2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
 		18D98DCE2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
 		18D98DCF2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D98DBB2884BB3600A8B8DD /* Montserrat-LightItalic.ttf */; };
@@ -117,6 +128,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18C4262D2885B513007B1D8A /* Parki_WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parki_WidgetExtension.entitlements; sourceTree = "<group>"; };
+		18C4262E28862AEA007B1D8A /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		18C4263028862CD1007B1D8A /* WidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetView.swift; sourceTree = "<group>"; };
+		18C42633288637BF007B1D8A /* TimeElapsedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeElapsedView.swift; sourceTree = "<group>"; };
+		18C42636288645F7007B1D8A /* UpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateView.swift; sourceTree = "<group>"; };
 		18D98D30288470F800A8B8DD /* Parki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D98D33288470F800A8B8DD /* ParkiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkiApp.swift; sourceTree = "<group>"; };
 		18D98D35288470F800A8B8DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -193,6 +209,8 @@
 		18D98D27288470F800A8B8DD = {
 			isa = PBXGroup;
 			children = (
+				18C4262D2885B513007B1D8A /* Parki_WidgetExtension.entitlements */,
+				18D98DBA2884BB3600A8B8DD /* Fonts */,
 				18D98D32288470F800A8B8DD /* Parki */,
 				18D98D43288470FA00A8B8DD /* ParkiTests */,
 				18D98D4D288470FA00A8B8DD /* ParkiUITests */,
@@ -216,7 +234,6 @@
 		18D98D32288470F800A8B8DD /* Parki */ = {
 			isa = PBXGroup;
 			children = (
-				18D98DBA2884BB3600A8B8DD /* Fonts */,
 				18D98DB92884B91800A8B8DD /* Parki.entitlements */,
 				18D98D5F288489A700A8B8DD /* Info.plist */,
 				18D98D33288470F800A8B8DD /* ParkiApp.swift */,
@@ -224,6 +241,9 @@
 				18D98DB52884B13800A8B8DD /* Styling.swift */,
 				18D98D37288470FA00A8B8DD /* Assets.xcassets */,
 				18D98D39288470FA00A8B8DD /* Preview Content */,
+				18C4262E28862AEA007B1D8A /* DisplayView.swift */,
+				18C42633288637BF007B1D8A /* TimeElapsedView.swift */,
+				18C42636288645F7007B1D8A /* UpdateView.swift */,
 			);
 			path = Parki;
 			sourceTree = "<group>";
@@ -293,6 +313,7 @@
 				18D98E4C2884DA0300A8B8DD /* Parki_Widget.swift */,
 				18D98E4E2884DA0600A8B8DD /* Assets.xcassets */,
 				18D98E502884DA0600A8B8DD /* Info.plist */,
+				18C4263028862CD1007B1D8A /* WidgetView.swift */,
 			);
 			path = Parki_Widget;
 			sourceTree = "<group>";
@@ -464,6 +485,7 @@
 				18D98DD12884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */,
 				18D98DE62884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */,
 				18D98DF22884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */,
+				18C426252885AD32007B1D8A /* Assets.xcassets in Resources */,
 				18D98DE32884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */,
 				18D98DCE2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */,
 				18D98DDA2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */,
@@ -489,6 +511,7 @@
 				18D98DD22884BB3600A8B8DD /* Montserrat-Medium.ttf in Resources */,
 				18D98DE72884BB3600A8B8DD /* Montserrat-MediumItalic.ttf in Resources */,
 				18D98DF32884BB3600A8B8DD /* Montserrat-ExtraBold.ttf in Resources */,
+				18C426262885AD33007B1D8A /* Assets.xcassets in Resources */,
 				18D98DE42884BB3600A8B8DD /* Montserrat-Bold.ttf in Resources */,
 				18D98DCF2884BB3600A8B8DD /* Montserrat-LightItalic.ttf in Resources */,
 				18D98DDB2884BB3600A8B8DD /* Montserrat-ThinItalic.ttf in Resources */,
@@ -501,6 +524,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C4262C2885B436007B1D8A /* Montserrat-Medium.ttf in Resources */,
+				18C4262B2885B41E007B1D8A /* Montserrat-Regular.ttf in Resources */,
+				18C4262A2885B3E5007B1D8A /* Montserrat-SemiBold.ttf in Resources */,
+				18C426272885AD34007B1D8A /* Assets.xcassets in Resources */,
 				18D98E4F2884DA0600A8B8DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,8 +540,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D98DB62884B13800A8B8DD /* Styling.swift in Sources */,
+				18C4262F28862AEA007B1D8A /* DisplayView.swift in Sources */,
+				18C42634288637BF007B1D8A /* TimeElapsedView.swift in Sources */,
 				18D98D36288470F800A8B8DD /* ContentView.swift in Sources */,
 				18D98D34288470F800A8B8DD /* ParkiApp.swift in Sources */,
+				18C42637288645F7007B1D8A /* UpdateView.swift in Sources */,
+				18C4263128862CD1007B1D8A /* WidgetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +553,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D98DB72884B13800A8B8DD /* Styling.swift in Sources */,
 				18D98D45288470FA00A8B8DD /* ParkiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,7 +561,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18D98DB82884B13800A8B8DD /* Styling.swift in Sources */,
 				18D98D51288470FA00A8B8DD /* ParkiUITestsLaunchTests.swift in Sources */,
 				18D98D4F288470FA00A8B8DD /* ParkiUITests.swift in Sources */,
 			);
@@ -541,6 +570,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C4263528863F57007B1D8A /* TimeElapsedView.swift in Sources */,
+				18C4263228862D3C007B1D8A /* WidgetView.swift in Sources */,
+				18C4261B2885AD18007B1D8A /* Styling.swift in Sources */,
 				18D98E4D2884DA0300A8B8DD /* Parki_Widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -829,6 +861,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Parki_WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 333Y7J6932;
@@ -856,6 +889,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = Parki_WidgetExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 333Y7J6932;
