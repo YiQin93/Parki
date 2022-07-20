@@ -10,15 +10,16 @@ import WidgetKit
 
 struct UpdateView: View {
     // for default floors
-    let options: [Int] = [4, 5, 6]
+    let options: [Int]
     @State var selectionStatus: [Bool]
+    @State var selection: Int = 0 // the selected floor
     
     // for input floor
     @State var input: String = ""
     
     // for saving the results
     @State var source: Source = .fromSelection
-    @AppStorage("ParkedFloor", store: UserDefaults(suiteName: "group.com.Parki.Parki")) var result: Int = 0 // for storing the final selected floor num
+    @AppStorage("ParkedFloor", store: UserDefaults(suiteName: "group.com.Parki.Parki")) var parkedFloor: Int = 0 // for storing the final selected floor num
     @AppStorage("ParkedTime", store: UserDefaults(suiteName: "group.com.Parki.Parki")) var updateTime: Date = Date() // for storing the time for this update
     
     enum Source {
@@ -28,9 +29,12 @@ struct UpdateView: View {
     
     // for navigating to the next view
     @State private var action: Int?
+    // for navigating back from its descendents views
+    @Environment(\.presentationMode) var presentationMode
     
-    init() {
-        self.selectionStatus = Array(repeating: false, count: options.count)
+    init(options: [Int] = [4, 5, 6]) {
+        self.options = options
+        _selectionStatus = State(initialValue: Array(repeating: false, count: options.count))
     }
     
     var body: some View {
@@ -38,10 +42,8 @@ struct UpdateView: View {
             
             NavigationLink(destination: DisplayView(), tag: 0, selection: $action) { EmptyView() }
             
-            LastModifiedTimeView(time: self.updateTime)
-            Spacer().frame(height: 0.029 * UIScreen.screenHeight)
-            
             VStack (alignment: .leading) {
+                Spacer().frame(height: 0.05 * UIScreen.screenHeight)
                 
                 CurrentDateView()
                 Spacer().frame(height: 0.067 * UIScreen.screenHeight)
@@ -51,12 +53,21 @@ struct UpdateView: View {
                     Spacer().frame(height: 0.041 * UIScreen.screenHeight)
                     
                     inputView
-                    Spacer().frame(height: 0.111 * UIScreen.screenHeight)
+                    Spacer().frame(height: 0.05 * UIScreen.screenHeight) // 0.111
                     
                     confirmBtn
+                    Spacer().frame(height: 0.022 * UIScreen.screenHeight)
                 }
-                Spacer().frame(height: 0.142 * UIScreen.screenHeight)
             }
+            // for the cancel btn
+            Button {
+                self.presentationMode.wrappedValue.dismiss()
+            } label: {
+                Text("cancel")
+                    .font(.custom(Font.regular, size: 15))
+                    .foregroundColor(.secondaryTextColor.opacity(0.8))
+            }.frame(height: 0.052 * UIScreen.screenHeight)
+            Spacer().frame(height: 0.1 * UIScreen.screenHeight)
             
             Icon()
         }
@@ -91,9 +102,7 @@ struct UpdateView: View {
                             self.cleanInput() // clear the input field
                             
                             self.source = .fromSelection // update the source indicator
-                            self.result = options[i] // save the result from the selection
-                            
-                            //save()
+                            self.selection = options[i] // save the result from the selection
                         }
                 }
             }
@@ -118,15 +127,18 @@ struct UpdateView: View {
             save()
             self.action = 0
         } label: {
-            MainBtn(label: "Update")
+            MainBtn(label: "Confirm")
         }
     }
     
     
     func save() {
         // save the result from the input field
-        if self.source == .fromInput {
-            self.result = Int(self.input) ?? 0
+        switch source {
+        case .fromInput:
+            self.parkedFloor = Int(self.input) ?? 0
+        case .fromSelection:
+            self.parkedFloor = self.selection
         }
         // save the current time
         self.updateTime = Date()
@@ -151,31 +163,6 @@ struct UpdateView: View {
     }
 }
 
-private struct LastModifiedTimeView: View {
-
-    let time: Date
-    
-    var body: some View {
-        VStack (alignment: .trailing) {
-            Text("Last modified")
-                .font(.custom(Font.regular, size: 15))
-                .foregroundColor(.secondaryTextColor.opacity(0.8))
-            Text("\(getFormatTime(time: self.time))")
-                .font(.custom(Font.regular, size: 15))
-                .foregroundColor(.secondaryTextColor.opacity(0.8))
-        }
-        .padding(.trailing, 0.084 * UIScreen.screenWidth)
-        .frame(width: UIScreen.screenWidth, alignment: .trailing)
-    }
-    
-    func getFormatTime(time: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMM d, E HH:mm"
-        let result = formatter.string(from: time)
-        
-        return result
-    }
-}
 
 // Helper for getting the date
 private struct CurrentDateView: View {

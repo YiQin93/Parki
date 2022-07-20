@@ -35,7 +35,7 @@ struct WidgetView: View {
                     .minimumScaleFactor(0.5)
                     .foregroundColor(.primaryColor)
                     .padding(.top, 0.259 * geo.size.height)
-                    .frame(width: 0.322 * geo.size.width)
+                    .frame(height: 0.85 * geo.size.width) // limit the size by height to ensure numbers with 2 digits can be properly displayed
                 
                 Text("floor")
                     .font(.custom(Font.regular, size: 15))
@@ -54,7 +54,7 @@ struct WidgetView: View {
 
 struct WidgetView_Previews: PreviewProvider {
     static var previews: some View {
-        WidgetView(floor: 2)
+        WidgetView(floor: 1)
             .frame(width: 120, height: 120)
     }
 }

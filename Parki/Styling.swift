@@ -50,6 +50,10 @@ struct Icon: View {
     }
 }
 
+extension Text {
+    
+}
+
 // for navigation
 struct HiddenNavigationBar: ViewModifier {
     func body(content: Content) -> some View {
@@ -91,7 +95,6 @@ extension Font {
     static let medium = "Montserrat-Medium"
     static let semiBold = "Montserrat-SemiBold"
 }
-
 
 ////
 ////  Parki_Widget.swift

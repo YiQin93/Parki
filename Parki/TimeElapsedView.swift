@@ -11,10 +11,16 @@ import SwiftUI
 func getTimeElapsed(startTime: Date) -> String {
     
     let diff = startTime.timeIntervalSinceNow // difference in seconds
-
-    let timeElapsedString = formatTimeElapsed(elapsedSeconds: diff) // add a minus sign to denote passed time
     
-    return timeElapsedString
+    var string = ""
+    
+    if abs(diff) < 300 {
+        string = "Just now"
+    } else {
+        string = formatTimeElapsed(elapsedSeconds: diff) // add a minus sign to denote passed time
+    }
+    
+    return string
 }
 
 // format the elapsed time
